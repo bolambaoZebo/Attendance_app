@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graycolor"
+    android:layout_marginBottom="12dp">
+
+    <TextView
+        android:id="@+id/title_sem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
+        android:hint="Seminar Title"
+        android:padding="12dp" />
+    <TextView
+        android:id="@+id/date_sem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:hint="Seminar date"
+        android:paddingLeft="12dp"
+       />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@android:color/white" />
+
+
+</LinearLayout>
